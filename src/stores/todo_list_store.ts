@@ -31,7 +31,7 @@ export const useToDoListStore = defineStore('todos', {
         async fetchToDoList() : Promise<boolean> {
             // this.toDoList = await fakeList()
             // const response = await fetch('http://127.0.0.1:7071/api/GetToDoList/')
-            const response = await fetch('https://week1-lab-sjm47-func.azurewebsites.net/api/GetToDoList')
+            const response = await fetch('https://week1-lab-sjm01-func.azurewebsites.net/api/gettodolist')
 
             if(response.ok) {
                 const data = await response.json()
