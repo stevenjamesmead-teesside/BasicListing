@@ -59,7 +59,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'week01sjm01webapp'
+          app-name: 'week01sj01webapp'
           slot-name: 'Production'
           package: .
           
